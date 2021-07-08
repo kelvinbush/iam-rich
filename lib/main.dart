@@ -10,8 +10,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://i.natgeofe.com/n/d472dd3c-8d38-4eed-ae62-7472a12a17de/secretary-bird-thumbnail-nationalgeographic_2331336.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
